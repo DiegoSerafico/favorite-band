@@ -20,14 +20,33 @@ h1 {
   padding: 5px;
   width: 800px;
   float: left;
+  margin: 30px;
 }
 
 p {
   color: aliceblue;
-  font-size: 20px;
-  margin-right: 600px;
+  font-size: 18px;
+  margin-right: 500px;
 }
 
 .sidebar {
+  width: 25%;
+  float: right;
+  background-color: darkslategray;
+  height: 100%;
+  padding-top: 10px;
+}
 
+.sidebar > h2 {
+  text-align: center;
+}
+
+img {
+  width: 600px;
+  float: right;
+}
+
+.images {
+  margin: 100px;
+  clear: both;
 }
