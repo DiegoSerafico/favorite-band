@@ -3,6 +3,31 @@ body {
 }
 
 h1 {
+  background-color: darkslategray;
+  text-align: center;
   font-size: 60px;
   font-style: oblique;
+  color: darkred;
+}
+
+.intro {
+
+}
+
+.intro > img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 800px;
+  float: left;
+}
+
+p {
+  color: aliceblue;
+  font-size: 20px;
+  margin-right: 600px;
+}
+
+.sidebar {
+
 }
