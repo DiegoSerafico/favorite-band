@@ -10,10 +10,6 @@ h1 {
   color: darkred;
 }
 
-.intro {
-
-}
-
 .intro > img {
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -27,26 +23,30 @@ p {
   color: aliceblue;
   font-size: 18px;
   margin-right: 500px;
+  padding-top: 30px;
 }
 
 .sidebar {
   width: 25%;
   float: right;
   background-color: darkslategray;
-  height: 100%;
-  padding-top: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 30px;
 }
 
 .sidebar > h2 {
   text-align: center;
 }
 
-img {
-  width: 600px;
-  float: right;
-}
-
 .images {
-  margin: 100px;
+  margin: 30px;
   clear: both;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+  float: right;
+  width: 600px;
+  
 }
